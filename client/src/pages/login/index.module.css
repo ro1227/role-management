@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f2f5;
+}
+
+.card {
+    width: 400px;
+}
+
+.card :global(.ant-card-head-title) {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+} 
